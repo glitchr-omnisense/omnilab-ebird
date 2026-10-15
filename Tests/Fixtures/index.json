@@ -1,0 +1,18 @@
+{
+    "v2-ref-taxonomy-ebird-fmt-json-species-amerob-eurrob1-locale-en-16e7b935.json": {
+        "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&species=amerob,eurrob1&locale=en",
+        "status": 200
+    },
+    "v2-ref-taxonomy-ebird-fmt-json-species-amerob-locale-en-314bab6c.json": {
+        "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&species=amerob&locale=en",
+        "status": 200
+    },
+    "v2-ref-taxonomy-ebird-fmt-json-species-eurrob1-locale-fr-873186fa.json": {
+        "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&species=eurrob1&locale=fr",
+        "status": 200
+    },
+    "v2-ref-taxonomy-ebird-fmt-json-species-zzzzzz-locale-en-7fe83944.json": {
+        "url": "https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&species=zzzzzz&locale=en",
+        "status": 200
+    }
+}

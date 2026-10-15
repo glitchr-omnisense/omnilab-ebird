@@ -1,0 +1,45 @@
+{
+    "name": "omnilab/ebird",
+    "type": "library",
+    "description": "Omnilab eBird: a bird taxon of the eBird/Clements taxonomy by its species code (no key) - scientific and common names in a locale, category, order, family, banding codes - and, with the user's eBird API key, a taxon by name, a search of names, a checklist, and the recent observations around a point or in a region or a region's observations of a day, through the eBird API 2.0.",
+    "keywords": [
+        "science",
+        "biodiversity",
+        "birds",
+        "ornithology",
+        "ebird",
+        "occurrences",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Ebird\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Ebird\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

@@ -1,0 +1,5 @@
+[
+{"speciesCode":"eurrob1","comName":"European Robin","sciName":"Erithacus rubecula","locId":"L0000001","locName":"Example location A (constructed)","obsDt":"2026-10-15 08:30","howMany":2,"lat":48.58,"lng":7.75,"obsValid":true,"obsReviewed":false,"locationPrivate":true,"subId":"S100000001"},
+{"speciesCode":"amerob","comName":"American Robin","sciName":"Turdus migratorius","locId":"L0000002","locName":"Example location B (constructed)","obsDt":"2026-10-14","lat":48.6,"lng":7.7,"obsValid":true,"obsReviewed":true,"locationPrivate":false,"subId":"S100000002"},
+{"speciesCode":"eurrob1","comName":"European Robin","sciName":"Erithacus rubecula","locId":"L0000003","locName":"Example location C (constructed)","obsDt":"2026-10-13 17:05","howMany":1,"lat":48.55,"lng":7.8,"obsValid":true,"obsReviewed":false,"locationPrivate":true}
+]
