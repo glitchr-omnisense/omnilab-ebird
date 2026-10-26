@@ -6,7 +6,7 @@
 > documentation (`Tests/Constructed/`). The taxonomy by species code, which needs no key, was
 > checked against the real service on 2026-10-16.
 
-eBird for [omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a bird taxon by its eBird
+eBird for [omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a bird taxon by its eBird
 species code, in the eBird/Clements taxonomy - its scientific and common names (in a locale), its
 category, order and family, its banding codes -, without a key; and, with the user's eBird API
 key, a taxon by its name, a search of names, a checklist by its id, and the recent observations
