@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "ebird",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "contract",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "unknown",
+            "maxTtl": null
+        },
+        "storage": "unknown",
+        "redistribution": "forbidden",
+        "attribution": {
+            "required": true,
+            "text": "eBird.org",
+            "url": "https://ebird.org",
+            "where": [
+                "display"
+            ]
+        },
+        "licence": null
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
+        "policy": "https://www.birds.cornell.edu/home/ebird-api-terms-of-use/",
+        "verifiedAt": null,
+        "declaredBy": "maintainer",
+        "contact": "ebird@cornell.edu",
+        "notes": "The eBird API Terms (last edited 2021-10-19) and the eBird Data Access Terms answered 403 live on 2026-11-10 and were read in Wayback snapshots (2026-08-12, 2026-05-13). API Terms: \"All APIs (with few exceptions) will require a key\" tied to an eBird account, not to be shared; licence for non-commercial use only, commercial purposes need prior written permission (ebird@cornell.edu); no figure, but use must not \"adversely impact the stability of the ebird.org servers\" (suspension); attribute \"eBird.org as the source of the data ... wherever it is used or displayed\", with a link back where possible; no framing or mirroring. Data Access Terms: research and education use; no passing original datasets to third parties nor publishing eBird data in their original format, whole or in part; derived data passed on only under the same terms; copies of publications sent to the Lab. The key is required for every call but the taxonomy (ref/taxonomy answered 200 without a key on 2026-11-10), so requirements.key is false; the source refuses keyed operations itself without one. Storage and caching are not stated."
+    }
+}

@@ -1,0 +1,181 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Cannot access offset ''code'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Cannot access offset ''name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 7
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#1 \$c of method Omnilab\\Ebird\\EbirdSource\:\:toChecklist\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#1 \$callback of function array_map expects \(callable\(non\-empty\-array\<mixed, mixed\>\)\: mixed\)\|null, Closure\(array\<string, mixed\>\)\: Omnilab\\Model\\Entity given\.$#'
+			identifier: argument.type
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#1 \$t of method Omnilab\\Ebird\\EbirdSource\:\:toTaxon\(\) expects array\<string, mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 2
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#1 \$text of static method Omnilab\\Source\\HttpSource\:\:text\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 18
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#2 \$array of function implode expects array\<string\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Parameter \#2 \$value of static method Omnilab\\Model\\Identifier\:\:tryOf\(\) expects int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 4
+			path: EbirdSource.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Using nullsafe property access "\?\-\>value" on left side of \?\? is unnecessary\. Use \-\> instead\.$#'
+			identifier: nullsafe.neverNull
+			count: 1
+			path: EbirdSource.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 2
+			path: EbirdSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 3
+			path: EbirdSourceFactory.php
+
+		-
+			message: '#^Cannot access offset ''status'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access offset string on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$domain on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$kind on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 3
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$label on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$place on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$time on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot call method format\(\) on DateTimeImmutable\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot call method related\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Cannot call method value\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 12
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Method Omnilab\\Ebird\\Tests\\EbirdSourceTest\:\:source\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$options of method Omnilab\\Source\\SourceFactory\:\:create\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Parameter \#3 \$body of static method Omnilab\\Ebird\\Tests\\EbirdSourceTest\:\:fixture\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/EbirdSourceTest.php
+
+		-
+			message: '#^Property Omnilab\\Ebird\\Tests\\EbirdSourceTest\:\:\$headers \(list\<array\<string, list\<string\>\>\>\) does not accept non\-empty\-list\<mixed\>\.$#'
+			identifier: assign.propertyType
+			count: 1
+			path: Tests/EbirdSourceTest.php
