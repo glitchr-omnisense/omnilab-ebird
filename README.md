@@ -40,6 +40,35 @@ Without a key, what needs one is refused before any call (`InvalidConfigExceptio
 the key is obtained). eBird gives no other base's id: a taxon is named in the core's `ebird`
 scheme (Wikidata's P3444 holds it), an observation keyed by its checklist (`ebird.checklist`).
 
+## Install and a first call
+
+```sh
+composer require omnilab/ebird
+```
+
+A real call, with no account and no key: the European robin in eBird's taxonomy (the taxonomy needs
+no key; the rest of eBird does). `mailto` is your address, sent in the User-Agent so that the
+service can reach you before it blocks a caller; the source keeps to the limits its
+[`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Ebird\EbirdSourceFactory;
+
+$ebird = (new EbirdSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$robin = $ebird->entity('eurrob1');
+echo $robin->label, ' (', $robin->value('common_name'), ')', "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+Erithacus rubecula (European Robin)
+```
+
 ## Terms of use
 
 The eBird API is the Cornell Lab of Ornithology's. A key is obtained by the user with an eBird
